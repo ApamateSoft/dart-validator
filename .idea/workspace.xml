@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="88673434-e267-4b46-8029-066cef3ac9f7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1h90O1r43nmGl90OCwJ6A0zI1bJ" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\dart\validator\lib" />
+      <recent name="C:\dev\dart\validator\lib\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="validator.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/validator.dart" />
+      <option name="workingDirectory" value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Dart Command Line App.validator.dart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="88673434-e267-4b46-8029-066cef3ac9f7" name="Default Changelist" comment="" />
+      <created>1599407965355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599407965355</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="294" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599531603680">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="294" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1599531603680" />
+    <state width="1637" height="269" key="GridCell.Tab.0.bottom" timestamp="1599533007267">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1020@0.0.1680.1020" timestamp="1599533007267" />
+    <state width="1637" height="269" key="GridCell.Tab.0.center" timestamp="1599533007267">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="269" key="GridCell.Tab.0.center/0.0.1680.1020@0.0.1680.1020" timestamp="1599533007267" />
+    <state width="1637" height="269" key="GridCell.Tab.0.left" timestamp="1599533007267">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="269" key="GridCell.Tab.0.left/0.0.1680.1020@0.0.1680.1020" timestamp="1599533007267" />
+    <state width="1637" height="269" key="GridCell.Tab.0.right" timestamp="1599533007267">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="269" key="GridCell.Tab.0.right/0.0.1680.1020@0.0.1680.1020" timestamp="1599533007267" />
+    <state width="1637" height="340" key="GridCell.Tab.1.bottom" timestamp="1599532082589">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.1.bottom/0.0.1680.1020@0.0.1680.1020" timestamp="1599532082589" />
+    <state width="1637" height="340" key="GridCell.Tab.1.center" timestamp="1599532082588">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.1.center/0.0.1680.1020@0.0.1680.1020" timestamp="1599532082588" />
+    <state width="1637" height="340" key="GridCell.Tab.1.left" timestamp="1599532082588">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.1.left/0.0.1680.1020@0.0.1680.1020" timestamp="1599532082588" />
+    <state width="1637" height="340" key="GridCell.Tab.1.right" timestamp="1599532082588">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.1.right/0.0.1680.1020@0.0.1680.1020" timestamp="1599532082588" />
+    <state x="341" y="153" key="SettingsEditor" timestamp="1599410049373">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="341" y="153" key="SettingsEditor/0.0.1680.1020@0.0.1680.1020" timestamp="1599410049373" />
+    <state x="956" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1599531030031">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="956" y="335" key="com.intellij.ide.util.TipDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1599531030031" />
+    <state x="222" y="235" key="new project wizard" timestamp="1599410174698">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="222" y="235" key="new project wizard/0.0.1680.1020@0.0.1680.1020" timestamp="1599410174698" />
+  </component>
+</project>
