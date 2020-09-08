@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88673434-e267-4b46-8029-066cef3ac9f7" name="Default Changelist" comment="" />
+    <list default="true" id="88673434-e267-4b46-8029-066cef3ac9f7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/src/rule.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/Functions.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/functions.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/Messages.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/messages.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/validator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/validator.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +25,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1h90O1r43nmGl90OCwJ6A0zI1bJ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="show.migrate.to.gradle.popup" value="false" />
@@ -31,14 +47,20 @@
       <recent name="C:\dev\dart\validator\lib\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Dart Test.tests in test.dart">
     <configuration name="validator.dart" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/validator.dart" />
       <option name="workingDirectory" value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="tests in test.dart" type="DartTestRunConfigurationType" factoryName="Dart Test" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/test/test.dart" />
+      <option name="testName" value="test.dart" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Dart Test.tests in test.dart" />
         <item itemvalue="Dart Command Line App.validator.dart" />
       </list>
     </recent_temporary>
@@ -73,22 +95,22 @@
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="294" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1599531603680" />
-    <state width="1637" height="269" key="GridCell.Tab.0.bottom" timestamp="1599533007267">
+    <state width="840" height="374" key="GridCell.Tab.0.bottom" timestamp="1599537299519">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="269" key="GridCell.Tab.0.bottom/0.0.1680.1020@0.0.1680.1020" timestamp="1599533007267" />
-    <state width="1637" height="269" key="GridCell.Tab.0.center" timestamp="1599533007267">
+    <state width="840" height="374" key="GridCell.Tab.0.bottom/0.0.1680.1020@0.0.1680.1020" timestamp="1599537299519" />
+    <state width="840" height="374" key="GridCell.Tab.0.center" timestamp="1599537299519">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="269" key="GridCell.Tab.0.center/0.0.1680.1020@0.0.1680.1020" timestamp="1599533007267" />
-    <state width="1637" height="269" key="GridCell.Tab.0.left" timestamp="1599533007267">
+    <state width="840" height="374" key="GridCell.Tab.0.center/0.0.1680.1020@0.0.1680.1020" timestamp="1599537299519" />
+    <state width="840" height="374" key="GridCell.Tab.0.left" timestamp="1599537299515">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="269" key="GridCell.Tab.0.left/0.0.1680.1020@0.0.1680.1020" timestamp="1599533007267" />
-    <state width="1637" height="269" key="GridCell.Tab.0.right" timestamp="1599533007267">
+    <state width="840" height="374" key="GridCell.Tab.0.left/0.0.1680.1020@0.0.1680.1020" timestamp="1599537299515" />
+    <state width="840" height="374" key="GridCell.Tab.0.right" timestamp="1599537299519">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="269" key="GridCell.Tab.0.right/0.0.1680.1020@0.0.1680.1020" timestamp="1599533007267" />
+    <state width="840" height="374" key="GridCell.Tab.0.right/0.0.1680.1020@0.0.1680.1020" timestamp="1599537299519" />
     <state width="1637" height="340" key="GridCell.Tab.1.bottom" timestamp="1599532082589">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
@@ -117,5 +139,9 @@
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="222" y="235" key="new project wizard/0.0.1680.1020@0.0.1680.1020" timestamp="1599410174698" />
+    <state x="496" y="163" width="670" height="676" key="search.everywhere.popup" timestamp="1599537118979">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state x="496" y="163" width="670" height="676" key="search.everywhere.popup/0.0.1680.1020@0.0.1680.1020" timestamp="1599537118979" />
   </component>
 </project>
