@@ -13,15 +13,15 @@ class Messages {
 }
 
 class MessagesEs implements Messages {
-  @override final email = 'No coinciden';
-  @override final length = 'Requerido';
-  @override final maxLength = 'Se requiere %x caracteres';
-  @override final minLength = 'Se requiere al menos %x caracteres';
-  @override final mustContainOne = 'Se requiere menos de %x caracteres';
-  @override final notContain = 'Email invalido';
-  @override final notMatch = 'No es un número';
-  @override final numericFormat = 'Solo se admiten los siguientes caracteres %x';
+  @override final notMatch = 'No coinciden';
+  @override final require = 'Requerido';
+  @override final length = 'Se requiere %x caracteres';
+  @override final minLength = 'Se requiere menos de %x caracteres';
+  @override final maxLength = 'Se requiere al menos %x caracteres';
+  @override final email = 'Email invalido';
+  @override final numericFormat = 'No es un número';
+  @override final shouldOnlyContain = 'Solo se admiten los siguientes caracteres %x';
   @override final onlyNumbers = 'Solo números';
-  @override final require = 'No se admiten los siguientes caracteres %x';
-  @override final shouldOnlyContain = 'Se requiere al menos uno de los siguientes carácteres: %x';
+  @override final notContain = 'No se admiten los siguientes caracteres %x';
+  @override final mustContainOne = 'Se requiere al menos uno de los siguientes carácteres: %x';
 }

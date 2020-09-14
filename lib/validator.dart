@@ -9,6 +9,7 @@ class Validator {
 
   List<Rule> _rules = [];
   NotPass _notPass;
+  String _mismatchMessage = _messages.notMatch;
 
   Validator();
 
@@ -16,6 +17,10 @@ class Validator {
 
   static void setMessages(Messages messages) {
     _messages = messages;
+  }
+
+  set mismatchMessage(String mismatchMessage) {
+    _mismatchMessage = mismatchMessage;
   }
 
   bool isValid(String evaluate) {
@@ -26,6 +31,18 @@ class Validator {
       }
     }
     return true;
+  }
+
+  bool compare(String evaluate, String compare) {
+    if (evaluate==null || compare==null) {
+      if (_notPass!=null) _notPass(_mismatchMessage);
+      return false;
+    }
+    if (evaluate!=compare) {
+      if (_notPass!=null) _notPass(_mismatchMessage);
+      return false;
+    }
+    return isValid(evaluate);
   }
 
   Validator rule(String message, Validate validate) {
@@ -47,37 +64,56 @@ class Validator {
   }
 
   Validator length(int condition, [String message]) {
-    rule((message ?? _messages.length).replaceFirst('%x', '$condition'), (evaluate) => evaluate.length==condition);
+    rule(
+      (message ?? _messages.length).replaceFirst('%x', '$condition'),
+      (evaluate) => evaluate!=null && evaluate.length==condition
+    );
     return this;
   }
 
   Validator minLength(int condition, [String message]) {
-    rule((message ?? _messages.minLength).replaceFirst('%x', '$condition'), (evaluate) => evaluate.length<=condition);
+    rule(
+      (message ?? _messages.minLength).replaceFirst('%x', '$condition'),
+      (evaluate) => evaluate!=null && evaluate.length<=condition
+    );
     return this;
   }
 
   Validator maxLength(int condition, [String message]) {
-    rule((message ?? _messages.maxLength).replaceFirst('%x', '$condition'), (evaluate) => evaluate.length>=condition);
+    rule(
+      (message ?? _messages.maxLength).replaceFirst('%x', '$condition'),
+      (evaluate) => evaluate!=null && evaluate.length>=condition
+    );
     return this;
   }
 
   Validator email([String message]) {
-    rule(message ?? _messages.email, (evaluate) => _EMAIL_RE.hasMatch(evaluate) );
+    rule(
+      message ?? _messages.email,
+      (evaluate) => evaluate!=null && _EMAIL_RE.hasMatch(evaluate)
+    );
     return this;
   }
 
   Validator numericFormat([String message]) {
-    rule(message ?? _messages.numericFormat, (evaluate) => double.tryParse(evaluate)!=null );
+    rule(
+      message ?? _messages.numericFormat,
+      (evaluate) => evaluate!=null && double.tryParse(evaluate)!=null
+    );
     return this;
   }
 
   Validator shouldOnlyContain(String condition, [String message]) {
-    rule((message ?? _messages.shouldOnlyContain).replaceFirst('%x', '$condition'), (evaluate) {
-      for (var i=0; i<evaluate.length; i++) {
-        if (!condition.contains(evaluate[i])) return false;
+    rule(
+      (message ?? _messages.shouldOnlyContain).replaceFirst('%x', '$condition'),
+      (evaluate) {
+        if (evaluate==null) return false;
+        for (var i=0; i<evaluate.length; i++) {
+          if (!condition.contains(evaluate[i])) return false;
+        }
+        return true;
       }
-      return true;
-    });
+    );
     return this;
   }
 
@@ -88,22 +124,30 @@ class Validator {
   }
 
   Validator notContain(String condition, [String message]) {
-    rule((message ?? _messages.notContain).replaceFirst('%x', '$condition'), (evaluate) {
-      for (var i=0; i<condition.length; i++) {
-        if (evaluate.contains(condition[i])) return false;
+    rule(
+      (message ?? _messages.notContain).replaceFirst('%x', '$condition'),
+      (evaluate) {
+        if (evaluate==null) return false;
+        for (var i=0; i<condition.length; i++) {
+          if (evaluate.contains(condition[i])) return false;
+        }
+        return true;
       }
-      return true;
-    });
+    );
     return this;
   }
 
   Validator mustContainOne(String condition, [String message]) {
-    rule((message ?? _messages.mustContainOne).replaceFirst('%x', '$condition'), (evaluate) {
-      for (var i=0; i<condition.length; i++) {
-        if (evaluate.contains(condition[i])) return true;
+    rule(
+      (message ?? _messages.mustContainOne).replaceFirst('%x', '$condition'),
+      (evaluate) {
+        if (evaluate==null) return false;
+        for (var i=0; i<condition.length; i++) {
+          if (evaluate.contains(condition[i])) return true;
+        }
+        return false;
       }
-      return false;
-    });
+    );
     return this;
   }
 

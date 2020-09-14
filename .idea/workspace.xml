@@ -2,16 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88673434-e267-4b46-8029-066cef3ac9f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/src/rule.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/test.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/Functions.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/functions.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/src/Messages.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/messages.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/src/messages.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/src/messages.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/validator.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/validator.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test.dart" beforeDir="false" afterPath="$PROJECT_DIR$/test/test.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +34,10 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="configurable.group.build" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
@@ -61,7 +61,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="Dart Test.tests in test.dart" />
-        <item itemvalue="Dart Command Line App.validator.dart" />
       </list>
     </recent_temporary>
   </component>
@@ -87,54 +86,64 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1599407965355</updated>
+      <workItem from="1582733231250" duration="624000" />
+      <workItem from="1582732816469" duration="38000" />
+      <workItem from="1582733142594" duration="84000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="294" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599531603680">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="294" y="166" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1599531603680" />
-    <state width="840" height="374" key="GridCell.Tab.0.bottom" timestamp="1599537299519">
+    <state x="225" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1600107488352">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="840" height="374" key="GridCell.Tab.0.bottom/0.0.1680.1020@0.0.1680.1020" timestamp="1599537299519" />
-    <state width="840" height="374" key="GridCell.Tab.0.center" timestamp="1599537299519">
+    <state x="225" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1020@0.0.1680.1020" timestamp="1600107488352" />
+    <state width="796" height="535" key="GridCell.Tab.0.bottom" timestamp="1600108364070">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="840" height="374" key="GridCell.Tab.0.center/0.0.1680.1020@0.0.1680.1020" timestamp="1599537299519" />
-    <state width="840" height="374" key="GridCell.Tab.0.left" timestamp="1599537299515">
+    <state width="796" height="535" key="GridCell.Tab.0.bottom/0.0.1680.1020@0.0.1680.1020" timestamp="1600108364070" />
+    <state width="796" height="535" key="GridCell.Tab.0.center" timestamp="1600108364070">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="840" height="374" key="GridCell.Tab.0.left/0.0.1680.1020@0.0.1680.1020" timestamp="1599537299515" />
-    <state width="840" height="374" key="GridCell.Tab.0.right" timestamp="1599537299519">
+    <state width="796" height="535" key="GridCell.Tab.0.center/0.0.1680.1020@0.0.1680.1020" timestamp="1600108364070" />
+    <state width="796" height="535" key="GridCell.Tab.0.left" timestamp="1600108364070">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="840" height="374" key="GridCell.Tab.0.right/0.0.1680.1020@0.0.1680.1020" timestamp="1599537299519" />
-    <state width="1637" height="340" key="GridCell.Tab.1.bottom" timestamp="1599532082589">
+    <state width="796" height="535" key="GridCell.Tab.0.left/0.0.1680.1020@0.0.1680.1020" timestamp="1600108364070" />
+    <state width="796" height="535" key="GridCell.Tab.0.right" timestamp="1600108364070">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="340" key="GridCell.Tab.1.bottom/0.0.1680.1020@0.0.1680.1020" timestamp="1599532082589" />
-    <state width="1637" height="340" key="GridCell.Tab.1.center" timestamp="1599532082588">
+    <state width="796" height="535" key="GridCell.Tab.0.right/0.0.1680.1020@0.0.1680.1020" timestamp="1600108364070" />
+    <state width="1637" height="340" key="GridCell.Tab.1.bottom" timestamp="1599537812008">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="340" key="GridCell.Tab.1.center/0.0.1680.1020@0.0.1680.1020" timestamp="1599532082588" />
-    <state width="1637" height="340" key="GridCell.Tab.1.left" timestamp="1599532082588">
+    <state width="1637" height="340" key="GridCell.Tab.1.bottom/0.0.1680.1020@0.0.1680.1020" timestamp="1599537812008" />
+    <state width="1637" height="340" key="GridCell.Tab.1.center" timestamp="1599537812008">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="340" key="GridCell.Tab.1.left/0.0.1680.1020@0.0.1680.1020" timestamp="1599532082588" />
-    <state width="1637" height="340" key="GridCell.Tab.1.right" timestamp="1599532082588">
+    <state width="1637" height="340" key="GridCell.Tab.1.center/0.0.1680.1020@0.0.1680.1020" timestamp="1599537812008" />
+    <state width="1637" height="340" key="GridCell.Tab.1.left" timestamp="1599537812008">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state width="1637" height="340" key="GridCell.Tab.1.right/0.0.1680.1020@0.0.1680.1020" timestamp="1599532082588" />
+    <state width="1637" height="340" key="GridCell.Tab.1.left/0.0.1680.1020@0.0.1680.1020" timestamp="1599537812008" />
+    <state width="1637" height="340" key="GridCell.Tab.1.right" timestamp="1599537812008">
+      <screen x="0" y="0" width="1680" height="1020" />
+    </state>
+    <state width="1637" height="340" key="GridCell.Tab.1.right/0.0.1680.1020@0.0.1680.1020" timestamp="1599537812008" />
     <state x="341" y="153" key="SettingsEditor" timestamp="1599410049373">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
     <state x="341" y="153" key="SettingsEditor/0.0.1680.1020@0.0.1680.1020" timestamp="1599410049373" />
-    <state x="956" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1599531030031">
+    <state x="956" y="335" key="com.intellij.ide.util.TipDialog" timestamp="1599616822424">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
-    <state x="956" y="335" key="com.intellij.ide.util.TipDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1599531030031" />
+    <state x="956" y="335" key="com.intellij.ide.util.TipDialog/0.0.1680.1020@0.0.1680.1020" timestamp="1599616822424" />
     <state x="222" y="235" key="new project wizard" timestamp="1599410174698">
       <screen x="0" y="0" width="1680" height="1020" />
     </state>
