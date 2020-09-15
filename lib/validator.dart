@@ -8,12 +8,12 @@ class Validator {
   static var _messages = Messages();
 
   List<Rule> _rules = [];
-  NotPass _notPass;
+  NotPass _notBeingValid;
   String _mismatchMessage = _messages.notMatch;
 
   Validator();
 
-  Validator._(final this._rules, final this._notPass);
+  Validator._(final this._rules, final this._notBeingValid);
 
   static void setMessages(Messages messages) {
     _messages = messages;
@@ -26,7 +26,7 @@ class Validator {
   bool isValid(String evaluate) {
     for (final rule in _rules) {
       if (!rule.isValid(evaluate)) {
-        if (_notPass!=null) _notPass(rule.getMessage());
+        if (_notBeingValid!=null) _notBeingValid(rule.getMessage());
         return false;
       }
     }
@@ -35,11 +35,11 @@ class Validator {
 
   bool compare(String evaluate, String compare) {
     if (evaluate==null || compare==null) {
-      if (_notPass!=null) _notPass(_mismatchMessage);
+      if (_notBeingValid!=null) _notBeingValid(_mismatchMessage);
       return false;
     }
     if (evaluate!=compare) {
-      if (_notPass!=null) _notPass(_mismatchMessage);
+      if (_notBeingValid!=null) _notBeingValid(_mismatchMessage);
       return false;
     }
     return isValid(evaluate);
@@ -50,16 +50,16 @@ class Validator {
     return this;
   }
 
-  Validator onNotPass(NotPass notPass) {
-    _notPass = notPass;
+  Validator onNotBingValid(NotPass notPass) {
+    _notBeingValid = notPass;
     return this;
   }
 
   Validator required([String message]) {
-    rule(message ?? _messages.require, (evaluate) {
-      if (evaluate==null) return false;
-      return evaluate.isNotEmpty;
-    });
+    rule(
+      message ?? _messages.require,
+      (evaluate) => evaluate!=null && evaluate.isNotEmpty
+    );
     return this;
   }
 
@@ -152,7 +152,11 @@ class Validator {
   }
 
   Validator copy() {
-    return Validator._(_rules, _notPass);
+    return Validator._(_rules, _notBeingValid);
+  }
+
+  void dispose() {
+    _notBeingValid = null;
   }
 
 }
